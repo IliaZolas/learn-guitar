@@ -1,2 +1,10 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner-full-page">
+    <div class="banner-bg-image">
+        <%= image_tag 'learn-guitar-home.jpg' %>
+    </div>
+    <div class="banner-content">
+        <h1>Learn Guitar</h1>
+        <p>Your personal space for learning guitar and keeping track of your progress</p>
+        <%= link_to 'Signup', new_user_registration_path, class: "primary-button" %>
+    </div>
+</div>

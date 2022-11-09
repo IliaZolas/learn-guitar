@@ -1,0 +1,13 @@
+.primary-button {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 15px;
+    &:hover {
+        background-color: darkred;
+        color: white;
+        transition: 0.7s;
+    }
+}
